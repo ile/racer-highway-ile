@@ -1,6 +1,6 @@
 {
   "name": "racer-highway-ile",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./src/server",
   "browser": {
@@ -11,5 +11,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "racer": "^1.1.0",
+    "browserchannel": "*",
+    "extend": "*",
+    "through": "*",
+    "ws": "*"
+  }
 }
