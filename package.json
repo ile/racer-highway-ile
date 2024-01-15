@@ -1,8 +1,11 @@
 {
   "name": "racer-highway-ile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./src/server",
+  "browser": {
+    "main": "./src/browser"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
