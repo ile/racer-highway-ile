@@ -1,4 +1,4 @@
-const racer = require('aamu-racer')
+const racer = require('racer')
 const Socket = require('./socket')
 const defaultClientOptions = {
   base: '/ws',
